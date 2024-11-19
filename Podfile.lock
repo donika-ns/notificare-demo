@@ -1,0 +1,40 @@
+PODS:
+  - Notificare/NotificareGeoKit (4.0.0):
+    - Notificare/NotificareUtilitiesKit
+  - Notificare/NotificareKit (4.0.0):
+    - Notificare/NotificareUtilitiesKit
+  - Notificare/NotificarePushKit (4.0.0):
+    - Notificare/NotificareUtilitiesKit
+  - Notificare/NotificarePushUIKit (4.0.0):
+    - Notificare/NotificareUtilitiesKit
+  - Notificare/NotificareUtilitiesKit (4.0.0)
+  - OneSignalXCFramework (3.12.10):
+    - OneSignalXCFramework/OneSignalCore (= 3.12.10)
+    - OneSignalXCFramework/OneSignalExtension (= 3.12.10)
+    - OneSignalXCFramework/OneSignalOutcomes (= 3.12.10)
+  - OneSignalXCFramework/OneSignalCore (3.12.10)
+  - OneSignalXCFramework/OneSignalExtension (3.12.10):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalOutcomes
+  - OneSignalXCFramework/OneSignalOutcomes (3.12.10):
+    - OneSignalXCFramework/OneSignalCore
+
+DEPENDENCIES:
+  - Notificare/NotificareGeoKit
+  - Notificare/NotificareKit
+  - Notificare/NotificarePushKit
+  - Notificare/NotificarePushUIKit
+  - OneSignalXCFramework (< 4.0, >= 3.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Notificare
+    - OneSignalXCFramework
+
+SPEC CHECKSUMS:
+  Notificare: 7f0501b852da610ed3b4caaa07f86c0d110409cf
+  OneSignalXCFramework: e458f7a374192598a1d66418e1b61481c3cdf0e9
+
+PODFILE CHECKSUM: 8c105bfba2c537a169381bc2bb14fdd0d1e36161
+
+COCOAPODS: 1.15.2
